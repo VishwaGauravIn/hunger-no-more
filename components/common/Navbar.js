@@ -40,21 +40,21 @@ export default function Navbar() {
           <li>
             <a
               href="#"
-              aria-label="About us"
-              title="About us"
+              aria-label="Statistics"
+              title="Statistics"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              About us
+              Statistics
             </a>
           </li>
           <li>
             <a
               href="#"
-              aria-label="Contact Us"
-              title="Contact Us"
+              aria-label="About Us"
+              title="About Us"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Contact Us
+              About Us
             </a>
           </li>
         </ul>
@@ -90,8 +90,7 @@ export default function Navbar() {
                       aria-label="Company"
                       title="Company"
                       class="inline-flex items-center"
-                    >
-                    </a>
+                    ></a>
                   </div>
                   <div>
                     <button
@@ -144,21 +143,21 @@ export default function Navbar() {
                     <li>
                       <a
                         href="#"
-                        aria-label="About us"
-                        title="About us"
+                        aria-label="Statistics"
+                        title="Statistics"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        About us
+                        Statistics
                       </a>
                     </li>
                     <li>
                       <a
                         href="#"
-                        aria-label="Contact Us"
-                        title="Contact Us"
+                        aria-label="About Us"
+                        title="About Us"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Contact Us
+                        About Us
                       </a>
                     </li>
                     <li>
