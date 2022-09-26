@@ -2,6 +2,7 @@ import Head from "next/head";
 import Carousal from "../components/common/home/Carousal";
 import Hero from "../components/common/home/Hero";
 import Stats from "../components/common/home/Stats";
+import Testimonials from "../components/common/home/Testimonials";
 import Navbar from "../components/common/Navbar";
 
 export default function Home() {
@@ -13,11 +14,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="d bg-zinc-100">
         <Navbar />
         <Hero />
         <Carousal />
         <Stats />
+        {/* Donation */}
+        <Testimonials />
+        {/* Team */}
+        {/* Contacts? */}
       </main>
 
       <footer></footer>
