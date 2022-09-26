@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Carousal from "../components/common/home/Carousal";
+import Hero from "../components/common/home/Hero";
 import Navbar from "../components/common/Navbar";
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
 
       <main>
         <Navbar />
+        <Hero />
+        <Carousal/>
       </main>
 
       <footer></footer>
