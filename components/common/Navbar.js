@@ -9,7 +9,7 @@ export default function Navbar() {
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="/"
+              href="#"
               aria-label="Donate"
               title="Donate"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -19,7 +19,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="/"
+              href="#"
               aria-label="Our Team"
               title="Our Team"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -29,7 +29,7 @@ export default function Navbar() {
           </li>
         </ul>
         <a
-          href="/"
+          href="#"
           aria-label="Company"
           title="Company"
           class="inline-flex items-center"
@@ -39,7 +39,7 @@ export default function Navbar() {
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="/"
+              href="#"
               aria-label="About us"
               title="About us"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -49,7 +49,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="/"
+              href="#"
               aria-label="Contact Us"
               title="Contact Us"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -86,7 +86,7 @@ export default function Navbar() {
                 <div class="flex items-center justify-between mb-4">
                   <div>
                     <a
-                      href="/"
+                      href="#"
                       aria-label="Company"
                       title="Company"
                       class="inline-flex items-center"
@@ -113,7 +113,7 @@ export default function Navbar() {
                   <ul class="space-y-4">
                     <li>
                       <a
-                        href="/"
+                        href="#"
                         aria-label="Our product"
                         title="Our product"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -123,7 +123,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#"
                         aria-label="Our product"
                         title="Our product"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -133,7 +133,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#"
                         aria-label="Product Our Team"
                         title="Product Our Team"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -143,7 +143,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#"
                         aria-label="About us"
                         title="About us"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -153,7 +153,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#"
                         aria-label="Contact Us"
                         title="Contact Us"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -163,7 +163,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#"
                         class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
