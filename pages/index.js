@@ -1,9 +1,10 @@
 import Head from "next/head";
-import Carousal from "../components/common/home/Carousal";
-import Hero from "../components/common/home/Hero";
-import Stats from "../components/common/home/Stats";
-import Testimonials from "../components/common/home/Testimonials";
+import Carousal from "../components/home/Carousal";
+import Hero from "../components/home/Hero";
+import Stats from "../components/home/Stats";
+import Testimonials from "../components/home/Testimonials";
 import Navbar from "../components/common/Navbar";
+import Footer from "../components/common/Footer";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
         {/* Contacts? */}
       </main>
 
-      <footer></footer>
+      <Footer />
     </>
   );
 }
