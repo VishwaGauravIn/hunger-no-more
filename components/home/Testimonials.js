@@ -26,12 +26,6 @@ export default function Testimonials() {
                 can rely on your agency Thank you for all your help-I will be
                 recommending you to everyone
               </p>
-              <div className="absolute bottom-0 -mb-4 ml-10">
-                <img
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg2.svg"
-                  alt="sharp"
-                />
-              </div>
             </div>
             <div className="flex items-center mt-7">
               <div className="w-12 h-12 border border-indigo-700 rounded-full flex items-center justify-center">
@@ -64,12 +58,6 @@ export default function Testimonials() {
                 can rely on your agency Thank you for all your help-I will be
                 recommending you to everyone
               </p>
-              <div className="absolute bottom-0 -mb-4 ml-10">
-                <img
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg2.svg"
-                  alt="sharp"
-                />
-              </div>
             </div>
             <div className="flex items-center mt-7">
               <div className="w-12 h-12 border border-indigo-700 rounded-full flex items-center justify-center">

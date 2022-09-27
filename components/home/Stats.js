@@ -8,7 +8,7 @@ export default function Stats() {
           <div className="mx-auto container w-full flex flex-col justify-center items-center">
             <div className="flex justify-center items-center flex-col">
               <div className="mt-20">
-                <h2 className="lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-white">
+                <h2 className="lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-white px-4">
                   100% Transparency
                 </h2>
               </div>
