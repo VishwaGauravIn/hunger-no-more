@@ -9,7 +9,7 @@ export default function Navbar() {
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="#"
+              href="#donate"
               aria-label="Donate"
               title="Donate"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -19,7 +19,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="#team"
               aria-label="Our Team"
               title="Our Team"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -39,7 +39,7 @@ export default function Navbar() {
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="#"
+              href="#stats"
               aria-label="Statistics"
               title="Statistics"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -49,7 +49,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="#about"
               aria-label="About Us"
               title="About Us"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Stats() {
   return (
-    <div className="">
+    <div id="stats">
       <div className="pb-20">
         <div className="mx-auto bg-gradient-to-l from-indigo-600 to-indigo-700 h-96">
           <div className="mx-auto container w-full flex flex-col justify-center items-center">

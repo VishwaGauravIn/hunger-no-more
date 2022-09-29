@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Donate() {
   return (
-    <div className="flex flex-col w-full items-center my-10 md:my-14">
+    <div className="flex flex-col w-full items-center my-10 md:my-14" id="donate">
       <div className="flex pt-10 justify-center">
         <div className="w-4/12 flex justify-center items-center">
           <img src="/qr_mock.png" alt="" className="w-6/12" />
