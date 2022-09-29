@@ -6,6 +6,7 @@ import Testimonials from "../components/home/Testimonials";
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
 import CoreTeam from "../components/home/CoreTeam";
+import Donate from "../components/home/Donate";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
         <Hero />
         <Carousal />
         <Stats />
-        {/* Donation */}
+        <Donate />
         <Testimonials />
         <CoreTeam />
         {/* Contacts? */}
