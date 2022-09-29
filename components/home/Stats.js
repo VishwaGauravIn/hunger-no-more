@@ -14,7 +14,8 @@ export default function Stats() {
               </div>
               <div className="mt-6 mx-2 md:mx-0 text-center">
                 <p className="lg:text-lg md:text-base leading-6 text-sm  text-white">
-                  because you deserve to know when, where, and how your contributions bring a difference in someone&apos;s life.
+                  because you deserve to know when, where, and how your
+                  contributions bring a difference in someone&apos;s life.
                 </p>
               </div>
             </div>
@@ -27,12 +28,12 @@ export default function Stats() {
                 800+
               </h2>
               <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">
-                Hungry Souls Feeded 
+                Hungry Souls Feeded
               </p>
             </div>
             <div className="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
               <h2 className="lg:text-5xl md:text-4xl text-2xl font-extrabold leading-10 text-center text-gray-800">
-                400+
+                450+
               </h2>
               <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">
                 Members
@@ -40,7 +41,7 @@ export default function Stats() {
             </div>
             <div className="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
               <h2 className="lg:text-5xl md:text-4xl text-2xl font-extrabold leading-10 text-center text-gray-800">
-                300000
+                ₹32K+
               </h2>
               <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">
                 Donation collected
