@@ -5,6 +5,7 @@ import Stats from "../components/home/Stats";
 import Testimonials from "../components/home/Testimonials";
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
+import CoreTeam from "../components/home/CoreTeam";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
         <Stats />
         {/* Donation */}
         <Testimonials />
-        {/* Team */}
+        <CoreTeam />
         {/* Contacts? */}
       </main>
 
