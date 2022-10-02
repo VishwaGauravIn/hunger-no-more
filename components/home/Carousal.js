@@ -9,6 +9,7 @@ export default function Carousal() {
     <Swiper
       spaceBetween={50}
       slidesPerView={1}
+      loop={true}
       keyboard={{
         enabled: true,
       }}
@@ -21,10 +22,36 @@ export default function Carousal() {
         disableOnInteraction: false,
       }}
       modules={[Autoplay, Pagination, Navigation, Keyboard]}
+      className="w-full mb-10 sm:mb-20 p-2"
     >
-      <SwiperSlide>aa</SwiperSlide>
-      <SwiperSlide>aa</SwiperSlide>
-      <SwiperSlide>aa</SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/01.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/02.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/03.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/04.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
     </Swiper>
   );
 }

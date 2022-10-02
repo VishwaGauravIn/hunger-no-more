@@ -82,7 +82,7 @@ export default function Navbar() {
           </button>
           {isMenuOpen && (
             <div class="absolute top-0 left-0 w-full">
-              <div class="p-5 bg-white border rounded shadow-sm">
+              <div class="p-5 bg-zinc-100 border rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
                   <div>
                     <a
@@ -158,16 +158,6 @@ export default function Navbar() {
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         About Us
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                        aria-label="Sign up"
-                        title="Sign up"
-                      >
-                        Sign up
                       </a>
                     </li>
                   </ul>
