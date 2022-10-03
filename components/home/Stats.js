@@ -2,9 +2,18 @@ import axios from "axios";
 import React from "react";
 import stats from "../../stats.json";
 
-export async function getServerSideProps() {
-  axios.get("")
-}
+// export async function getServerSideProps() {
+  
+//   axios.get("https://teamhnm.org/api/hello").then((res)=>{
+//     console.log(res)
+//   })
+// }
+// const [feed_count,members,donation,extra] = res.data.
+axios.get("https://teamhnm.org/api/hello").then((res,err)=>{
+    console.log(res)
+  }).catch((err)=>{
+    console.log(err)
+  })
 
 export default function Stats() {
   return (
