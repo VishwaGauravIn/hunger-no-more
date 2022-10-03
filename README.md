@@ -1,4 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+ <h1> <img src="https://teamhnm.org/logo.png" width="80px"><br/>Team HNM (Hunger No More)</h1>
+</div>
+<br/>
+
+Website for NGO Hunger No More (HNM). Made with NextJS and TailwindCSS. We reduce the wastage of food by using it for a good cause and provide a healthy meal to kids so that they can sleep with no hunger.
+
+**Website: [teamhnm.org](https://teamhnm.org)**
+
+> Work in Progress
+
+![image](https://user-images.githubusercontent.com/81325730/193545477-9d35b574-6a6e-4814-8084-df8eaac3c6c5.png)
+
+#### We reduce the wastage of food by using it for a good cause and provide a healthy meal to kids so that they can sleep with no hunger.
+
+## Tech Stack
+
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Getting Started
 
