@@ -45,7 +45,7 @@ export default function CoreTeam() {
   ];
   return (
     <div className="flex flex-col w-full items-center my-10 md:my-14 " id="team">
-      <p className="text-4xl font-semibold">Core Team</p>
+      <p className="text-4xl font-bold">Core Team</p>
       <p className="text-gray-500 text-xl w-full md:w-8/12 text-center my-4">
         Teamwork is the fuel that allows common people to attain uncommon
         results.
