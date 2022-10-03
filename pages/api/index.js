@@ -14,6 +14,9 @@ export default function handler(req, res) {
 
   client.authorize(async function (err, tokens) {
     if (err) {
+      res.setHeader("Access-Control-Allow-Origin", "*");
+      res.setHeader("Access-Control-Allow-Methods", "GET");
+      res.setHeader("Access-Control-Allow-Headers", "Content-Type");
       return res.status(400).send(JSON.stringify({ error: true }));
     }
 
@@ -27,7 +30,7 @@ export default function handler(req, res) {
 
     let data = await gsapi.spreadsheets.values.get(opt);
     return res
-      .status(400)
+      .status(200)
       .send(JSON.stringify({ error: false, data: data.data.values }));
   });
 }
