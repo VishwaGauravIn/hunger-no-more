@@ -1,5 +1,10 @@
+import axios from "axios";
 import React from "react";
 import stats from "../../stats.json";
+
+export async function getServerSideProps() {
+  axios.get("")
+}
 
 export default function Stats() {
   return (
