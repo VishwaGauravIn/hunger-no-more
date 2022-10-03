@@ -52,6 +52,55 @@ export default function Carousal() {
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/05.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/06.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/07.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/08.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/09.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/10.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center overflow-visible">
+        <img
+          src="/carousal/11.png"
+          alt=""
+          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+        />
+      </SwiperSlide>
     </Swiper>
   );
 }
