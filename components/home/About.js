@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div
       className="flex flex-col w-full items-center mt-10 md:mt-14 "
-      id="team"
+      id="about"
     >
       <p className="text-4xl font-bold">About Us</p>
       <p className="text-gray-500 text-xl w-full md:w-8/12 text-center my-4">
