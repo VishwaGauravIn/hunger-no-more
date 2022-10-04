@@ -22,6 +22,7 @@ Website for NGO Hunger No More (HNM). Made with NextJS and TailwindCSS. We reduc
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Google APIs](https://img.shields.io/badge/Google%20API-%231572B6.svg?style=for-the-badge&logo=google&logoColor=white)
 
 ## Getting Started
 
