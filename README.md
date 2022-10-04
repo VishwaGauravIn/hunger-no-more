@@ -7,6 +7,8 @@ Website for NGO Hunger No More (HNM). Made with NextJS and TailwindCSS. We reduc
 
 **Website: [teamhnm.org](https://teamhnm.org)**
 
+>Note: I have nothing to do with this NGO and I don't endorse it.
+
 > Work in Progress
 
 ![image](https://user-images.githubusercontent.com/81325730/193545477-9d35b574-6a6e-4814-8084-df8eaac3c6c5.png)
