@@ -51,6 +51,24 @@ export default function CoreTeam() {
       position: "Editor",
     },
   ];
+
+  function imageExists(src, gender) {
+    return new Promise((resolve, reject) => {
+      var img = new Image();
+      img.onload = () => {
+        resolve(src);
+      };
+      img.onerror = (error) => {
+        resolve(
+          gender === "male"
+            ? "/team/default-male.png"
+            : "/team/default-female.png"
+        );
+      };
+      img.src = src;
+    });
+  }
+
   return (
     <div
       className="flex flex-col w-full items-center my-10 md:my-14 "
@@ -69,13 +87,15 @@ export default function CoreTeam() {
               key={index}
               className="flex flex-col items-center m-2 p-4 py-10 brightness-90 rounded-md w-56"
             >
-              <img
-                src={cc.avatar}
-                alt={
-                  cc.gender === "male" ? "/team/default-male.png" : "/team/default-female.png"
+              {imageExists(cc.avatar, cc.gender).then((promiseImgSrc) => {
+                {
+                  <img
+                    src={promiseImgSrc}
+                    alt={""}
+                    className="rounded-full w-20 h-20 md:w-28 md:h-28 object-cover ring ring-zinc-200"
+                  />;
                 }
-                className="rounded-full w-20 h-20 md:w-28 md:h-28 object-cover ring ring-zinc-200"
-              />
+              })}
               <p className="font-medium mt-2 text-lg opacity-75">{cc.name}</p>
               <p className="text-zinc-500">{cc.position}</p>
             </div>
