@@ -20,7 +20,7 @@ export default function Footer() {
                   rel="noreferrer noopener"
                   className=" sm:text-center sm:text-base transition-all ease-in-out"
                 >
-                  {"</>"} with by 💛 Vishwa Gaurav{" "}
+                  {"</>"} with 💛 by Vishwa Gaurav{" "}
                 </a>
               </span>
             </div>
